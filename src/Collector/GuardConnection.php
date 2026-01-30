@@ -31,7 +31,7 @@ final class GuardConnection extends AbstractConnectionMiddleware
         }
     }
 
-    public function exec(string $sql): int|string
+    public function exec(string $sql): int
     {
         $start = hrtime(true);
         try {
