@@ -1,0 +1,8 @@
+doctrine_performance_guard:
+  enabled: true
+  mode: log
+  max_queries: 60
+  max_total_time_ms: 250
+  max_duplicate_query_count: 12
+  add_debug_headers: true
+  apply_to_paths: ['/api', '/admin']
